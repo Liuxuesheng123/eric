@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta charset="utf-8" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/qrcode.js"></script>
+    
+
+
+</head>
+
+<body>
+    <div class="demo1"></div>
+    <div class="box1"></div>
+    <div class="demo2"></div>
+    <div id="qrcode">
+        <script type="text/javascript">
+            var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "http://www.runoob.com",
+            width: 200,
+            height: 200,
+            colorDark : "green",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+            });
+		</script>
+    </div>
+    <div class="logo"></div>
+    <div class="logo1"></div>
+    <div id="name1">
+        <p id="tom">
+           <span>**阳<img onclick="winkn()" src="img/close.png"></span>
+           <script type="text/javascript">
+               function winkn(){
+                   alert(系统故障，请稍后再试...);
+               }
+           </script> 
+        </p>
+    </div>
+        <script type="text/javascript">
+            function disptime(){  
+            var today=new Date(); 
+            var yyyy=today.getFullYear(); 
+            var MM=today.getMonth()+1;
+            var dd=today.getDay()+15;
+            var hh=today.getHours();  
+            var mm=today.getMinutes();  
+            var ss = today.getSeconds();  
+            document.getElementById("myclock").innerHTML="<span>"+yyyy+"-"+MM+"-"+dd+"&nbsp"+hh+":"+mm+":"+"<b>"+ss+"</b>"+"</span>"  
+            
+            }   
+            //setInterval（）方法可以按照指定的周期调用函数或计算表达式  
+            var mytime = setInterval("disptime()",1000);  
+        </script>
+    <div onload="disptime()">   
+        <p id="myclock"></p>  
+    </div> 
+    <div id="relative"><img src="img/relative.png"></div>
+    <div id="word"><img src="img/greenword.png"></div>
+    <div id="toset">
+        <p id="swiping">
+           <span>已支持刷公交、医保<img src="img/iconToSet.png"></span> 
+        </p>
+    </div>
+    <div class="box2"></div>
+    <div id="word1"><img src="img/word.png"></div>
+    <div id="box2"></div>
+    <div id="icon1" >
+        <img class="icon1" src="img/icon1.png">
+        <p><span>疫苗&核酸</span></p>
+    </div>
+    <div id="icon2" >
+        <img class="icon2" src="img/icon2.png">
+        <p><span>采样点</span></p>
+    </div>
+    <div id="icon3" >
+        <img class="icon3" src="img/icon3.png">
+        <p><span>抗原查询</span></p>
+    </div>
+    <div id="icon4" >
+        <img class="icon4" src="img/icon4.png">
+        <p><span>抗原查询</span></p>
+    </div>
+</body>
+
+</html>

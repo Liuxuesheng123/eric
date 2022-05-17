@@ -1,0 +1,164 @@
+.demo1 {
+    top:0px;
+    right:0px;
+    width: 25.875rem;
+    height: 60rem;
+    background-color: #fff;
+    background-image: url(img/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    float: left;
+}
+
+.demo2 {
+    width: 23.875rem;
+    height: 1.8125rem;
+    background: #fff url(img/title.png) no-repeat;
+    position: absolute;
+    top: 5rem;
+    left: 1.45rem;
+}
+.box1 {
+    width: 23.75rem;
+    height: 38.6875rem;
+    background-color: #fff;
+    border-color: aqua;
+    border-radius:5px;
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+
+}
+
+#qrcode {
+    position: absolute;
+    top: 18.875rem;
+    left:7.5rem;
+
+}
+.logo {
+    width: 4.3125rem;
+    height: 4.3125rem;
+    background: #fff url(img/logo.png) no-repeat;
+    position: absolute;
+    top: 8.125rem;
+    left:11.5125rem;
+
+    
+}
+.logo1 {
+    width: 2.125rem;
+    height: 2.4375rem;
+    background: #fff url(img/logo1.png) no-repeat;
+    position: absolute;
+    top: 23.855rem;
+    left:12.6875rem;
+
+   
+}
+#name1 {
+    width: auto;
+    height:auto;
+    position: absolute;
+    left:11.25rem;
+    top: 11.5rem;
+}
+#tom {
+    font-size: large;
+    font-weight: bold;
+    font-family: weituanyahei;
+    letter-spacing:0.3125rem;
+}
+#myclock {
+    position: absolute;
+    left:9.375rem;
+    top: 16rem;
+}
+#relative {
+    position: absolute;
+    left:9.375rem;
+    top: 14.8rem;
+}
+#word {
+    position: absolute;
+    left:12.575rem;
+    top: 31.8rem;
+}
+#toset {
+    width: auto;
+    height:auto;
+    position: absolute;
+    left:4.85rem;
+    top: 33.5rem;
+}
+#swiping {
+    font-size: large;
+    font-weight: bold;
+    font-family: weituanyahei;
+    letter-spacing:0.3125rem;
+    font-weight:border;
+    color: #C5AC7B;
+}
+
+#word1 {
+    position: absolute;
+    left:4.775rem;
+    top: 38.8rem;
+} 
+#box2 {
+    width: 23.75rem;
+    height: 12.6875rem;
+    background-color: #fff;
+    border-color: aqua;
+    border-radius:5px;
+    position: absolute;
+    top: 45rem;
+    left: 1.5rem;
+
+} 
+#icon1 {
+    
+    position: absolute;
+    top: 46rem;
+    left: 3rem;  
+} 
+.icon1 {
+    width: 3.1875rem;
+    height: 3.1875rem;
+     
+} 
+#icon2 {
+    
+    position: absolute;
+    top: 46rem;
+    left: 9rem;  
+}    
+.icon2 {
+    width: 3.1875rem;
+    height: 3.1875rem;
+     
+} 
+#icon3 {
+    
+    position: absolute;
+    top: 46rem;
+    left: 14rem;  
+} 
+.icon3 {
+    width: 3.1875rem;
+    height: 3.1875rem;
+     
+} 
+#icon4 {
+    
+    position: absolute;
+    top: 46rem;
+    left: 20rem;  
+}    
+.icon4 {
+    width: 3.1875rem;
+    height: 3.1875rem;
+     
+}     
+      
